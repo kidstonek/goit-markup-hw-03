@@ -309,9 +309,8 @@ img {
 }
 
 .portfolio-item {
-    font-weight: 500;
-    font-size: 20px;
-    width: calc((100% - 24px * 2) / 3);    
+    width: calc((100% - 24px * 2) / 3);
+      
 }
 
 .portfolio-content {
@@ -320,16 +319,25 @@ img {
     border-top: none;
 }
 
+.portfolio-title {
+    margin-bottom: 72px;
+}
 
 .portfolio-img {
     margin-bottom: 32px;
 }
 
 .portfolio-item-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     margin-bottom: 8px;
 }
 
 .portfolio-description {
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
     margin-bottom: 0;
 }
 /* #endregion */
